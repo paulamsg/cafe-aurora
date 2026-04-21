@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Details</title>
+    <link rel="icon" href="../images/icon_pg.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/style-details.css" />
+  </head>
+  <body>
+    <header class="detail-header">
+      <a class="detail-header__back" href="#btn-back" data-state="focus"
+        ><i class="fa-solid fa-arrow-left"></i
+      ></a>
+      <p class="detail-header__title">Detalle</p>
+      <a class="detail-header__favorite" href="#heart" data-state="focus"
+        ><i class="fa-solid fa-heart"></i
+      ></a>
+    </header>
+    <main class="product-detail">
+      <img
+        class="product-detail__image"
+        src="../images/esspresso.png"
+        alt="Café intenso"
+      />
+      <section class="product-detail__content">
+        <h1 class="product-detail__title">Espresso Intenso</h1>
+        <div class="product-detail__rating">
+          <i class="fa-solid fa-star" data-value="1"></i>
+          <i class="fa-solid fa-star" data-value="2"></i>
+          <i class="fa-solid fa-star" data-value="3"></i>
+          <i class="fa-solid fa-star" data-value="4"></i>
+          <i class="fa-solid fa-star" data-value="5"></i>
+        </div>
+        <p class="product-detail__price">€3.60</p>
+        <p class="product-detail__description">
+          Nuestro espresso signature combina granos 100% arábica de origen único
+          de las montañas de Colombia. Tostado artesanalmente para resaltar sus
+          notas de chocolate negro, caramelo y un toque cítrico que perdura en
+          el paladar.
+        </p>
+        <div class="product-detail__ingredients">
+          <hr class="product-detail__separator" />
+          <p class="product-detail__ingredients-title">Ingredientes y origen</p>
+          <div class="product-detail__radio-list">
+            <label>
+              <input
+                class="product-detail__radio"
+                type="radio"
+                name="arabica"
+                value="small"
+                checked
+              />
+              Café arábica de colombia
+            </label>
+
+            <label>
+              <input
+                class="product-detail__radio"
+                type="radio"
+                name="tostado"
+                value="medium"
+                checked
+              />
+              Tostado medio oscuro
+            </label>
+
+            <label>
+              <input
+                class="product-detail__radio"
+                type="radio"
+                name="proceso"
+                value="large"
+                checked
+              />
+              Proceso lavado
+            </label>
+            <label>
+              <input
+                class="product-detail__radio"
+                type="radio"
+                name="certificacion"
+                value="large"
+                checked
+              />
+              Certificación orgánica
+            </label>
+          </div>
+          <div class="product-detail__quantity-selector">
+            <div
+              class="product-detail__quantity-button product-detail__quantity-button--minus"
+            >
+              −
+            </div>
+            <p class="product-detail__quantity-number">1</p>
+            <div
+              class="product-detail__quantity-button product-detail__quantity-button--plus"
+            >
+              +
+            </div>
+          </div>
+          <button class="product-detail__add-button">
+            Añadir al carrito - €3.60
+          </button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+.detail-header__back,
+.detail-header__favorite {
+  color: black;
+}
+
+.product-detail__image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.product-detail__content {
+  padding: 30px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: white;
+  margin-top: -30px;
+  position: relative;
+  z-index: 10;
+}
+.product-detail__title {
+  font-weight: 400;
+}
+.product-detail__rating {
+  font-size: 20px;
+  margin: 10px 0;
+  gap: 5px;
+}
+
+.product-detail__rating i {
+  color: #ccc;
+  margin-right: 5px;
+}
+
+.product-detail__rating i[data-value] {
+  color: #d4a574;
+}
+.product-detail__rating i[data-value]:last-child {
+  color: #d4d2ce;
+}
+
+.product-detail__price {
+  font-size: 40px;
+  color: #2d5a27;
+  margin: 0;
+}
+.product-detail__description {
+  color: #666666;
+  font-size: 16px;
+  line-height: 27.2px;
+  font-family: "Inter", sans-serif;
+}
+
+.product-detail__ingredients-title {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.product-detail__radio-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.product-detail__radio-list label {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-family: "Inter", sans-serif;
+}
+
+.product-detail__radio {
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #ccc;
+  border-radius: 50px;
+  position: relative;
+}
+
+.product-detail__radio:checked {
+  border-color: #46af38;
+  background-color: #46af38;
+}
+
+.product-detail__radio:checked::after {
+  content: "✓";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+}
+
+.product-detail__quantity-selector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.product-detail__quantity-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #2d5a27;
+  color: white;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.product-detail__quantity-button--minus {
+  background-color: white;
+  color: #2d5a27;
+  border: 2px solid #2d5a27;
+}
+
+.product-detail__quantity-button--plus {
+  background-color: #2d5a27;
+  color: white;
+  border: none;
+  border-radius: 999px;
+}
+
+.product-detail__quantity-button:hover {
+  background-color: #1f3f1a;
+}
+
+.product-detail__quantity-button--minus:hover {
+  background-color: #f0f0f0;
+}
+
+.product-detail__quantity-number {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 16px;
+  min-width: 30px;
+  text-align: center;
+  margin: 0;
+}
+
+.product-detail__add-button {
+  display: block;
+  margin: 20px auto;
+  padding: 20px 60px;
+  background-color: #2d5a27;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}

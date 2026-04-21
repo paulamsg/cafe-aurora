@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+.detail-header {
+  justify-content: center;
+  position: relative;
+}
+.detail-header__title {
+  margin: 0;
+  text-align: center;
+}
+.detail-header__back {
+  position: absolute;
+  left: 16px;
+  color: black;
+}
+
+.contact-page {
+  padding-top: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.contact-page__title {
+  text-align: left;
+  font-weight: 200;
+}
+.contact-page__intro {
+  font-family: "Inter", sans-serif;
+  color: #666666;
+  text-align: left;
+  font-weight: 200;
+  padding-bottom: 20px;
+}
+.contact-form {
+  text-decoration: none;
+}
+
+.contact-form__list {
+  padding: 0;
+}
+
+.contact-form__item {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.contact-form__label {
+  margin-top: 16px;
+}
+.contact-form__input,
+.contact-form__textarea {
+  border: 2px solid #9c9c9c;
+  border-radius: 8px;
+  padding: 12px 14px;
+}
+.contact-form__textarea {
+  min-height: 160px;
+  resize: vertical;
+}
+
+.contact-form__terms {
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+}
+
+.contact-steps {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.contact-steps__item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #333333;
+}
+.contact-steps__item span {
+  font-family: "Inter", sans-serif;
+}
+.contact-steps__circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid #2d5a27;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: white;
+  background-color: #2d5a27;
+  flex-shrink: 0;
+}

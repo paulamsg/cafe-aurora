@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe Aurora</title>
+    <link rel="icon" href="../images/icon_pg.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/style-home.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <img
+        class="site-header__logo"
+        src="../images/user-picture.png"
+        alt="User picture"
+      />
+      <nav class="site-header__nav">
+        <label for="f-toggle" class="site-header__menu-toggle-label"
+          >&#9776;</label
+        >
+        <input type="checkbox" id="f-toggle" class="site-header__menu-toggle" />
+        <div class="site-header__menu">
+          <ul class="site-header__menu-list">
+            <li class="site-header__menu-item">Carta de bebidas</li>
+            <li class="site-header__menu-item">Carta de dulces</li>
+            <li class="site-header__menu-item">¿Quiénes somos?</li>
+            <li class="site-header__menu-item">Encargos</li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="home-main">
+      <img
+        class="home-main__hero-image"
+        src="../images/Cafe_Aurora_Interior.jpg"
+        alt="Cafe Aurora Logo"
+      />
+      <div class="home-main__text">
+        <h1>Café Aurora</h1>
+        <p>Experiencia artesanal en cada taza</p>
+      </div>
+      <div class="badge" data-category="nuevo">Nuevo</div>
+    </main>
+    <section class="category-filter">
+      <p>Categorías</p>
+      <div class="category-filter__list">
+        <div class="category-filter__tag" data-state="focus">Café</div>
+        <div class="category-filter__tag" data-state="normal">Postres</div>
+        <div class="category-filter__tag" data-state="normal">Bebidas</div>
+      </div>
+    </section>
+    <section class="product-list">
+      <p>Nuestros Productos</p>
+      <div class="product-list__grid">
+        <article class="product-card">
+          <div class="product-card__image-wrapper">
+            <img src="../images/esspresso.png" alt="Café espresso" />
+          </div>
+          <div class="product-card__content">
+            <p class="product-card__title">Esspresso Intenso</p>
+            <p class="product-card__description">
+              Café 100% arábica de origen único
+            </p>
+            <p class="product-card__price">€2.10</p>
+          </div>
+          <div class="badge" data-category="popular">Popular</div>
+        </article>
+        <article class="product-card">
+          <div class="product-card__image-wrapper">
+            <img src="../images/tarta-chocolate.png" alt="tarta de chocolate" />
+          </div>
+          <div class="product-card__content">
+            <p class="product-card__title">Tarta de chocolate</p>
+            <p class="product-card__description">Bizcocho húmedo con ganache</p>
+            <p class="product-card__price">€3.60</p>
+          </div>
+        </article>
+        <article class="product-card">
+          <div class="product-card__image-wrapper">
+            <img src="../images/cappuccino.jpg" alt="tarta de chocolate" />
+          </div>
+          <div class="product-card__content">
+            <p class="product-card__title">Cappuccino Clásico</p>
+            <p class="product-card__description">
+              Espresso con espuma de leche
+            </p>
+            <p class="product-card__price">€4.20</p>
+          </div>
+          <div class="badge" data-category="vegan">Vegano</div>
+        </article>
+        <article class="product-card">
+          <div class="product-card__image-wrapper">
+            <img src="../images/croissant.jpeg" alt="tarta de chocolate" />
+          </div>
+          <div class="product-card__content">
+            <p class="product-card__title">Croissant Artesanal</p>
+            <p class="product-card__description">Hojaldre con mantequilla</p>
+            <p class="product-card__price">€3.00</p>
+          </div>
+          <div class="badge" data-category="popular">Popular</div>
+        </article>
+      </div>
+    </section>
+    <nav class="bottom-nav">
+      <a href="#home" data-state="focus"><i class="fa-solid fa-house"></i></a>
+      <a href="#menu"><i class="fa-solid fa-magnifying-glass"></i></a>
+      <a href="#favorites"><i class="fa-solid fa-heart"></i></a>
+      <a href="#profile"><i class="fa-solid fa-user"></i></a>
+    </nav>
+  </body>
+</html>
