@@ -1,17 +1,35 @@
-# Cafe Aurora
+# Café Aurora
 
-Proyecto web estatico de una cafeteria con tres vistas principales:
+This is a **mobile-first frontend exercise** based on a Figma design for a fictional coffee shop.
 
-- Inicio
-- Detalle de producto
-- Contacto
+The goal of this exercise is to translate static UI designs into responsive and accessible layouts using **HTML and CSS**.
 
-## Estructura
+## Figma Design
+🔗 [https://TU-ENLACE-DE-FIGMA-AQUI](https://www.figma.com/design/JzXjwC7I7lYIHMTa01tQfF/Caf%C3%A9-Aurora?node-id=9-83&p=f&t=2GX4mduD61m2YBA3-0)
 
-- `html/index.html`: pagina principal
-- `html/product.html`: detalle de producto
-- `html/contact.html`: formulario de contacto
-- `css/style.css`: estilos base compartidos
-- `css/style-home.css`: estilos de la pagina de inicio
-- `css/style-details.css`: estilos de detalle de producto
-- `css/style-contact.css`: estilos de contacto
+## Views
+
+The project includes three main static screens:
+
+- Home  
+- Product detail  
+- Contact  
+
+Each page is implemented as an individual static layout.
+
+## Tech Stack
+
+- HTML5  
+- CSS3  
+- Responsive design (mobile-first approach)
+
+##  Project Structure
+
+- `html/index.html` → Home page  
+- `html/product.html` → Product detail  
+- `html/contact.html` → Contact form  
+
+- `css/style.css` → Shared base styles  
+- `css/style-home.css` → Home styles  
+- `css/style-details.css` → Product detail styles  
+- `css/style-contact.css` → Contact styles  
